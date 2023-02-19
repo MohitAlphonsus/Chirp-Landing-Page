@@ -76,6 +76,7 @@ const TextContentBox = styled.div`
 	h1 {
 		font-size: 6rem;
 		line-height: 1.1;
+		font-weight: 600;
 	}
 
 	p {
@@ -127,6 +128,8 @@ const Link = styled.a`
 `;
 
 const UserImages = styled.div`
+	margin-top: 2rem;
+
 	img:not(:first-child) {
 		margin-left: -2rem;
 	}
